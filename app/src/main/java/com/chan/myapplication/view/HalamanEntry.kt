@@ -25,8 +25,8 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.chan.myapplication.R
 import com.chan.myapplication.uicontroller.DestinasiNavigasi
-import com.chan.myapplication.SiswaTopAppBar
-import com.chan.myapplication.DetailSiswa
+import com.chan.myapplication.uicontroller.SiswaTopAppBar
+import com.chan.myapplication.viewmodel.DetailSiswa
 import com.chan.myapplication.viewmodel.EntryViewModel
 import com.chan.myapplication.viewmodel.PenyediaViewModel
 import com.chan.myapplication.viewmodel.UIStateSiswa
