@@ -4,6 +4,7 @@ import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.chan.myapplication.repositori.RepositoriSiswa
+import com.chan.myapplication.view.route.DestinasiDetailSiswa
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.filterNotNull
@@ -28,5 +29,18 @@ class DetailViewModel (
             )
 
     suspend fun deleteSiswa(){
+        repositoriSiswa.deleteSiswa(uiDetailState.value.detailSiswa.toSiswa())
+    }
+
+    companion object {
+        private const val TIMEOUT_MILLIS = 5_000L
     }
 }
+
+/*
+* UI STATE for ItemDetailsScreen
+*/
+
+data class DetailSiswaUiState(
+    val detailSiswa: DetailSiswa = DetailSiswa()
+)
