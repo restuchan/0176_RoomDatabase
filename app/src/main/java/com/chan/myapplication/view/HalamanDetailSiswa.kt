@@ -37,7 +37,7 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.chan.myapplication.R
 import com.chan.myapplication.room.Siswa
-import com.chan.myapplication.room.SiswaTopAppBar
+import com.chan.myapplication.uicontroller.SiswaTopAppBar
 import com.chan.myapplication.view.route.DestinasiDetailSiswa
 import com.chan.myapplication.viewmodel.DetailSiswaUiState
 import com.chan.myapplication.viewmodel.DetailViewModel

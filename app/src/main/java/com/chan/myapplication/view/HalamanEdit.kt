@@ -8,8 +8,8 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.chan.myapplication.SiswaTopAppBar
-import com.chan.myapplication.route.DestinasiEditSiswa
+import com.chan.myapplication.uicontroller.SiswaTopAppBar
+import com.chan.myapplication.view.route.DestinasiEditSiswa
 import com.chan.myapplication.viewmodel.EditViewModel
 import com.chan.myapplication.viewmodel.PenyediaViewModel
 import kotlinx.coroutines.launch
